@@ -5,7 +5,8 @@ class UI {
 
     // Display char in UI
     showCharacter(char) {
-        console.log(char)
+        
+        console.log(char);
         this.profile.innerHTML =  `
             <div class="card card-body mb-3">
             <div class="row">

@@ -7,6 +7,7 @@ class HarryPotter {
 			// fetch URL - be extra careful with spaces when formatting. it screwed up the url for a while
 			const charResponse = await fetch(`https://www.potterapi.com/v1/characters?
 												name=${charName}&key=${this.key}`);
+												console.log(charResponse);
 												
 												
 			const charInfo = await charResponse.json();

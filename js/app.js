@@ -22,6 +22,7 @@ searchChar.addEventListener('keyup', (e) => {
                 console.log('error');
             } else {
                 // show character
+                console.log(data.charInfo)
                 ui.showCharacter(data.charInfo);
             }
         }) 
